@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="color-scheme" content="light dark">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Join Our Team | Sheila Mae Fajutagana</title>
+<meta name="description" content="Join Sheila Mae Fajutagana's real estate team. Training, mentorship, and a flexible schedule for employees, OFWs, and business owners.">
+<style>
+:root{--band:#16324f;--bg:#faf7f2;--card:#fff;--ink:#1c2a3a;--mute:#5d6b7a;--brand:#16324f;--gold:#c8963e;--line:#e6dfd3;--on-brand:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--band:#1c3047;--bg:#0f1720;--card:#17222e;--ink:#eef1f4;--mute:#a3afbb;--brand:#c8963e;--gold:#e0b262;--line:#263444;--on-brand:#0f1720}}
+:root[data-theme="dark"]{--band:#1c3047;--bg:#0f1720;--card:#17222e;--ink:#eef1f4;--mute:#a3afbb;--brand:#c8963e;--gold:#e0b262;--line:#263444;--on-brand:#0f1720}
+html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.2;margin:0 0 .5em;color:var(--ink)}
+h1{font-size:clamp(2rem,6vw,3.4rem)}h2{font-size:clamp(1.6rem,4vw,2.3rem)}h3{font-size:1.15rem}
+p{margin:0 0 1em;color:var(--mute)}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+section{padding:64px 0}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+.logo{font-family:Georgia,serif;font-weight:700}
+.btn{display:inline-block;background:var(--brand);color:var(--on-brand);padding:12px 22px;border-radius:999px;text-decoration:none;font-weight:600;border:0;cursor:pointer;font-size:1rem}
+.btn.alt{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.eyebrow{color:var(--gold);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.78rem;margin-bottom:.8em}
+.hero .grid{display:grid;gap:40px;align-items:center}
+@media(min-width:820px){.hero .grid{grid-template-columns:1.2fr .8fr}}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);background:var(--card);padding:6px 14px;border-radius:999px;font-size:.88rem;color:var(--mute)}
+.portrait{aspect-ratio:4/5;border-radius:24px;position:relative;overflow:hidden;max-width:340px;margin:0 auto;width:100%;color:#fff;background:#16324f}.portrait img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top}.portrait .cap{position:absolute;left:0;right:0;bottom:0;padding:48px 22px 22px;display:flex;flex-direction:column;background:linear-gradient(to top,rgba(10,20,32,.88),rgba(10,20,32,0))}
+.portrait b{font-family:Georgia,serif;font-size:1.3rem}
+.portrait span{opacity:.85;font-size:.9rem}
+.cards{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}
+.card p{margin:0}
+.num{color:var(--gold);font-family:Georgia,serif;font-size:1.5rem;font-weight:700}
+.pain-points .cards{grid-template-columns:repeat(4,minmax(0,1fr));gap:30px;align-items:start}
+.pain-points .wrap{max-width:1240px}
+.pain-points .card{position:relative;background:transparent;border:0;border-radius:0;padding:0}
+.pain-points .pic.wide{aspect-ratio:4/3;border-radius:2px;margin-bottom:24px}
+.pain-points .num{position:absolute;top:16px;left:16px;z-index:1;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--gold);color:#fff;font-size:1.1rem;line-height:1;box-shadow:0 2px 8px rgba(10,20,32,.18)}
+.pain-points h3{font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:1.2rem;line-height:1.35;margin-bottom:.65em}
+.pain-points .card p{font-size:1.05rem;line-height:1.75}
+@media(max-width:900px){.pain-points .cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.pain-points .cards{grid-template-columns:1fr;gap:28px}.pain-points .pic.wide{margin-bottom:18px}}
+.benefits .cards{display:grid;grid-template-columns:1fr;gap:0}
+.benefits .card{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;gap:0;padding:0;border:0;border-top:1px solid var(--line);border-radius:0;background:transparent}
+.benefits .card:last-child{border-bottom:1px solid var(--line)}
+.benefits .card:nth-child(even){grid-template-columns:1fr 1fr}
+.benefits .card:nth-child(even) .pic{grid-column:2;grid-row:1;order:initial}
+.benefits .card .pic{grid-column:1;grid-row:1;width:100%;height:100%;min-height:250px;aspect-ratio:3/2;object-fit:cover;border-radius:0;margin:0}
+.benefits .benefit-copy{grid-column:2;grid-row:1;display:flex;flex-direction:column;justify-content:center;gap:18px;padding:clamp(28px,5vw,64px)}
+.benefits .card:nth-child(even) .benefit-copy{grid-column:1;grid-row:1}
+.benefits .benefit-copy h3{margin:0;font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:clamp(1.2rem,2vw,1.55rem);line-height:1.3}
+.benefits .benefit-copy p{margin:0;font-size:clamp(1rem,1.4vw,1.12rem);line-height:1.75}
+@media(max-width:700px){.benefits .card,.benefits .card:nth-child(even){display:grid;grid-template-columns:1fr;gap:0}.benefits .card .pic,.benefits .card:nth-child(even) .pic{grid-column:1;grid-row:1;min-height:0;aspect-ratio:3/2}.benefits .benefit-copy,.benefits .card:nth-child(even) .benefit-copy{grid-column:1;grid-row:2;padding:28px 0}.benefits .card:last-child{border-bottom:1px solid var(--line)}}
+.faq-card img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px;margin:0 0 18px}
+.faq-card h3{color:#fff}
+.faq-card p{color:#fff}
+.band{background:var(--band);color:#fff}
+.band h2,.band p{color:#fff}
+.band .num{color:var(--gold)}
+.band .card{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.18)}
+.band .card h3,.band .card p{color:#fff}
+.band .faq-carousel{display:flex;gap:0;overflow:hidden;position:relative;margin-top:26px;border-radius:18px}
+.band .faq-carousel .faq-card{flex:0 0 100%;min-width:100%;box-shadow:none;transition:transform .65s cubic-bezier(.22,.61,.36,1)}
+.faq-card img{animation:faqImageGlow 2.8s ease-in-out infinite;box-shadow:0 0 0 1px rgba(255,255,255,.18),0 0 18px rgba(200,150,62,.3)}
+.pain-points .pic,.benefits .pic,#how .pic{animation:faqImageGlow 2.8s ease-in-out infinite;box-shadow:0 0 0 1px rgba(255,255,255,.18),0 0 18px rgba(200,150,62,.3)}
+@keyframes faqImageGlow{0%,100%{box-shadow:0 0 0 1px rgba(255,255,255,.18),0 0 14px rgba(200,150,62,.28)}50%{box-shadow:0 0 0 3px rgba(224,178,98,.55),0 0 34px rgba(224,178,98,.78)}}
+.faq-controls{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:18px}
+.faq-carousel>.faq-nav{position:absolute;top:50%;z-index:3;margin-top:-20px;background:rgba(10,20,32,.55);backdrop-filter:blur(4px)}
+.faq-carousel>.faq-nav:first-of-type{left:14px}
+.faq-carousel>.faq-nav:last-of-type{right:14px}
+.faq-nav{width:40px;height:40px;border:1px solid rgba(255,255,255,.3);border-radius:999px;background:rgba(255,255,255,.1);color:#fff;cursor:pointer;font-size:1.5rem;line-height:1;transition:background .2s,box-shadow .2s,transform .2s}
+.faq-nav:hover,.faq-nav:focus-visible{background:rgba(255,255,255,.2);box-shadow:0 0 18px rgba(224,178,98,.6);transform:translateY(-2px);outline:none}
+.faq-dots{display:flex;gap:8px;align-items:center}
+.faq-dot{width:9px;height:9px;padding:0;border:0;border-radius:50%;background:rgba(255,255,255,.35);cursor:pointer;transition:background .2s,transform .2s,box-shadow .2s}
+.faq-dot[aria-current="true"]{background:var(--gold);transform:scale(1.35);box-shadow:0 0 12px rgba(224,178,98,.8)}
+@media(min-width:700px){.band .faq-carousel{max-width:620px;margin-left:auto;margin-right:auto}.band .faq-carousel .faq-card{padding:28px}}
+@media (prefers-reduced-motion:reduce){.faq-card img{animation:none}.band .faq-carousel .faq-card{transition:none}.faq-nav,.faq-dot{transition:none}}
+.scroll-reveal{opacity:0;transform:translateY(30px) scale(.98);transition:opacity .8s ease var(--reveal-delay,0s),transform .8s cubic-bezier(.22,.61,.36,1) var(--reveal-delay,0s);will-change:opacity,transform}
+.scroll-reveal.is-visible{opacity:1;transform:none}
+.scroll-reveal.reveal-left{transform:translateX(-34px) scale(.98)}
+.scroll-reveal.reveal-right{transform:translateX(34px) scale(.98)}
+.scroll-reveal.reveal-left.is-visible,.scroll-reveal.reveal-right.is-visible{transform:none}
+@media (prefers-reduced-motion:reduce){.scroll-reveal,.scroll-reveal.reveal-left,.scroll-reveal.reveal-right{opacity:1;transform:none;transition:none;will-change:auto}}
+form{display:grid;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:24px}
+@media(min-width:700px){.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}}
+label{font-size:.88rem;font-weight:600;display:grid;gap:6px}
+input,select,textarea{font:inherit;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);width:100%}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--gold);outline-offset:1px}
+.check{display:flex;gap:10px;align-items:flex-start;font-weight:400;color:var(--mute)}
+.check input{width:auto;margin-top:5px}
+#ok{display:none;background:var(--bg);border:1px solid var(--gold);border-radius:14px;padding:14px;color:var(--ink)}
+
+.modal{position:fixed;inset:0;z-index:20;background:rgba(10,20,32,.6);display:none;align-items:center;justify-content:center;padding:16px}
+.modal.open{display:flex}
+.dialog{position:relative;background:var(--card);color:var(--ink);width:100%;max-width:440px;max-height:92vh;overflow:auto;border-radius:22px;padding:26px 24px}
+.x{position:absolute;top:12px;right:14px;background:none;border:0;font-size:1.6rem;line-height:1;color:var(--mute);cursor:pointer}
+.stepno{font-size:.82rem;color:var(--mute)}
+.dialog h3{font-size:1.4rem;margin:2px 0 10px}
+.bar{height:6px;background:var(--line);border-radius:9px;overflow:hidden;margin-bottom:18px}
+.bar i{display:block;height:100%;width:20%;background:var(--gold);border-radius:9px;transition:width .25s}
+.dialog form{background:none;border:0;padding:0;border-radius:0}
+.step{display:none;gap:14px}.step.on{display:grid}
+.nav2{display:flex;gap:10px;margin-top:6px}
+.nav2 .btn{flex:1;text-align:center}
+.center{text-align:center}
+.brand{display:flex;align-items:center;gap:10px}.brand img{height:38px;width:auto}.flogo{height:64px;width:auto;margin-bottom:10px}
+.shots{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}.shot{margin:0;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden}.shot img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}.shot figcaption{padding:14px 18px}.shot b{display:block;color:var(--ink)}.shot span{font-size:.9rem;color:var(--mute)}
+.pic{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:12px;margin-bottom:14px}
+.navr{display:flex;align-items:center;gap:10px}.tg{width:40px;height:40px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;font-size:1.05rem;line-height:1}
+.pic.wide{aspect-ratio:4/3;object-position:center top}
+footer{border-top:1px solid var(--line);padding:32px 0;text-align:center;color:var(--mute);font-size:.9rem}
+footer a{margin:0 8px}
+
+/* Tap-to-choose answers (replaces dropdowns) */
+.opts{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.opt{position:relative;display:block;font-weight:600;font-size:.95rem;cursor:pointer}
+.opt input{position:absolute;opacity:0;width:1px;height:1px;padding:0;margin:0;border:0;pointer-events:none}
+.opt span{display:flex;align-items:center;justify-content:center;text-align:center;min-height:54px;padding:12px 14px;border:1.5px solid var(--line);border-radius:14px;background:var(--bg);color:var(--ink);transition:border-color .15s,background .15s,transform .15s}
+.opt:hover span{border-color:var(--gold)}
+.opt:active span{transform:scale(.98)}
+.opt input:focus-visible + span{outline:2px solid var(--gold);outline-offset:2px}
+.opt input:checked + span{background:var(--brand);border-color:var(--brand);color:var(--on-brand)}
+
+/* Custom date picker (matches the page theme, replaces the browser's default calendar) */
+.fld{font-size:.88rem;font-weight:600;display:grid;gap:6px}
+.dbtn{font:inherit;font-weight:400;text-align:left;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);width:100%;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.dbtn.ph{color:var(--mute)}
+.dbtn svg{flex:none;color:var(--gold)}
+.dbtn:focus-visible,.dbtn[aria-expanded="true"]{outline:2px solid var(--gold);outline-offset:1px}
+.cal{display:none;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;box-shadow:0 10px 26px rgba(10,20,32,.14)}
+.cal.open{display:block}
+.chd{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.chd b{font-family:Georgia,"Times New Roman",serif;font-size:1.08rem;color:var(--ink)}
+.cnav{width:34px;height:34px;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;font-size:1rem;line-height:1;padding:0}
+.cnav:hover:not(:disabled){border-color:var(--gold)}
+.cnav:disabled{opacity:.35;cursor:not-allowed}
+.cgrid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}
+.cw{font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);padding:4px 0}
+.cd{aspect-ratio:1;border:0;border-radius:999px;background:transparent;color:var(--ink);font:inherit;font-weight:500;font-size:.9rem;cursor:pointer;padding:0}
+.cd:hover:not(:disabled){box-shadow:inset 0 0 0 1.5px var(--gold)}
+.cd.td{box-shadow:inset 0 0 0 1.5px var(--gold)}
+.cd.sel{background:var(--brand);color:var(--on-brand);font-weight:700;box-shadow:none}
+.cd:disabled{color:var(--mute);opacity:.35;cursor:not-allowed}
+.cd:focus-visible,.clink:focus-visible,.cnav:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
+.cft{display:flex;justify-content:space-between;margin-top:10px;padding-top:10px;border-top:1px solid var(--line)}
+.clink{background:none;border:0;font:inherit;font-weight:700;color:var(--brand);cursor:pointer;padding:6px 4px}
+
+/* Loading entrance */
+#loader{position:fixed;inset:0;z-index:100;background:var(--band);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:24px;text-align:center;transition:opacity .6s ease,transform .6s ease,visibility 0s .6s;animation:ldfallback .01s 6s forwards}
+#loader.done{opacity:0;visibility:hidden;transform:translateY(-14px);pointer-events:none}
+@keyframes ldfallback{to{opacity:0;visibility:hidden;pointer-events:none}}
+.ld-logo{height:84px;width:auto;max-width:70vw;animation:ldpop .8s cubic-bezier(.2,.8,.2,1) both}
+.ld-name{font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.4rem,5vw,2rem);font-weight:700;animation:ldup .7s .25s ease both}
+.ld-tag{color:var(--gold);font-size:.78rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;animation:ldup .7s .45s ease both}
+.ld-bar{width:min(240px,60vw);height:3px;background:rgba(255,255,255,.18);border-radius:9px;overflow:hidden;margin-top:10px;animation:ldup .7s .55s ease both}
+.ld-bar i{display:block;height:100%;width:0;background:var(--gold);border-radius:9px;animation:ldfill 1.3s .6s cubic-bezier(.45,.05,.25,1) forwards}
+@keyframes ldpop{from{opacity:0;transform:scale(.8)}to{opacity:1;transform:none}}
+@keyframes ldup{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes ldfill{to{width:100%}}
+/* Hero content slides in after the loader */
+.js .rv{opacity:0;transform:translateY(22px);transition:opacity .8s ease var(--d,0s),transform .8s ease var(--d,0s)}
+.js.ready .rv{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){#loader{display:none}.js .rv{opacity:1;transform:none;transition:none}}
+
+/* Glow para halata na clickable ang buttons */
+:root{--glow:22,50,79}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--glow:200,150,62}}
+:root[data-theme="dark"]{--glow:200,150,62}
+
+.btn{transition:transform .2s,box-shadow .25s}
+
+/* Mahinang pulse kahit hindi pa hina-hover */
+.btn:not(.alt){animation:glow 2.4s ease-in-out infinite}
+@keyframes glow{
+  0%,100%{box-shadow:0 0 0 0 rgba(var(--glow),.45),0 0 10px rgba(var(--glow),.35)}
+  50%{box-shadow:0 0 0 6px rgba(var(--glow),0),0 0 22px rgba(var(--glow),.6)}
+}
+
+/* Mas malakas na glow pag hover o focus */
+.btn:hover,.btn:focus-visible{
+  animation:none;
+  transform:translateY(-2px);
+  box-shadow:0 0 0 3px rgba(var(--glow),.25),0 0 28px rgba(var(--glow),.8);
+}
+.btn.alt:hover{border-color:var(--gold);box-shadow:0 0 18px rgba(var(--glow),.5)}
+.btn:disabled{animation:none;box-shadow:none;transform:none;opacity:.7}
+
+/* Para sa mga ayaw ng animation */
+@media (prefers-reduced-motion:reduce){
+  .btn:not(.alt){animation:none;box-shadow:0 0 14px rgba(var(--glow),.45)}
+}
+</style>
+<script>document.documentElement.className+=' js'</script>
+</head>
+<body>
+<div id="loader" role="status" aria-label="Loading">
+<img class="ld-logo" src="<?= img.logo ?>" alt="" onerror="this.style.display='none'">
+<div class="ld-name">Sheila Mae Fajutagana</div>
+<div class="ld-tag">Smart Moves &bull; Secure Futures</div>
+<div class="ld-bar"><i></i></div>
+</div>
+<nav><div class="wrap"><span class="brand"><img src="<?= img.logo ?>" alt="Financially Savvy Realtor logo"><span class="logo">Sheila Mae Fajutagana</span></span><span class="navr"><button class="tg" id="tg" type="button" aria-label="Toggle dark mode"></button><a class="btn" href="#consult" data-open>Join Our Team</a></span></div></nav>
+
+<header class="hero"><section><div class="wrap grid">
+<div>
+<div class="eyebrow rv">Now Recruiting &bull; Real Estate Team</div>
+<h1 class="rv" style="--d:.15s">Build a real estate career with training, mentorship, and a team behind you.</h1>
+<p class="rv" style="--d:.3s">I'm looking for driven people who want extra income or a full career in real estate. You don't need to be an expert to start. We'll guide you step by step.</p>
+<div class="cta rv" style="--d:.45s"><a class="btn" href="#consult" data-open>Apply to join the team</a><a class="btn alt" href="#how">How it works</a></div>
+<div class="chips rv" style="--d:.6s"><span class="chip">Employees</span><span class="chip">OFWs</span><span class="chip">Fresh Graduates</span><span class="chip">Business Owners</span></div>
+</div>
+<div class="portrait rv" style="--d:.3s"><img src="<?= img.photo ?>" alt="Sheila Mae Fajutagana, Financially Savvy Realtor"><div class="cap"><b>Sheila Mae Fajutagana</b><span>Helping Filipinos turn income into assets</span></div></div>
+</div></section></header>
+
+<section class="pain-points"><div class="wrap">
+<div class="eyebrow">Sound familiar?</div>
+<h2>Does any of this sound like you?</h2>
+<p>If you nodded to even one of these, you're in the right place.</p>
+<div class="cards">
+<div class="card"><img class="pic wide" src="https://drive.google.com/thumbnail?id=1n5L_pbHwlInykypQDuGXBqDEsKpRVodx&amp;sz=w800" alt="Income feels stretched" loading="lazy"><div class="num">01</div><h3>Income feels stretched</h3><p>Your salary alone isn't enough for your goals and your family's needs.</p></div>
+<div class="card"><img class="pic wide" src="https://drive.google.com/thumbnail?id=13alnvykqjHeZhtb-C5mxAvYpLxyKwusH&amp;sz=w800" alt="No time freedom" loading="lazy"><div class="num">02</div><h3>No time freedom</h3><p>A fixed schedule leaves little room for family or your own plans.</p></div>
+<div class="card"><img class="pic wide" src="https://drive.google.com/thumbnail?id=1pkA2euArYb1RGC9ZiLd3l1Zn2c8zd-68&amp;sz=w800" alt="Stuck in your career" loading="lazy"><div class="num">03</div><h3>Stuck in your career</h3><p>You work hard, but growth and promotions move slowly.</p></div>
+<div class="card"><img class="pic wide" src="https://drive.google.com/thumbnail?id=1d8j3W60zTnk5mK4LvnAzoRliACk_0Vj6&amp;sz=w800" alt="Need a side income" loading="lazy"><div class="num">04</div><h3>Need a side income</h3><p>You want extra income without quitting your current job.</p></div>
+<div class="card"><img class="pic wide" src="https://drive.google.com/thumbnail?id=1l2VnJGokgaS2srRCF4JjOB5mh_xPOhcB&amp;sz=w800" alt="Don't know where to start" loading="lazy"><div class="num">05</div><h3>Don't know where to start</h3><p>Real estate looks interesting, but you're not sure how to begin.</p></div>
+<div class="card"><img class="pic wide" src="https://drive.google.com/thumbnail?id=1mkCvGW9XdiBHNPLp4vHegPDfYyDs_xtw&amp;sz=w800" alt="Worried about no experience" loading="lazy"><div class="num">06</div><h3>Worried about no experience</h3><p>You've never sold anything and wonder if you're qualified.</p></div>
+<div class="card"><img class="pic wide" src="https://drive.google.com/thumbnail?id=1MJnFK4V-K5NlD-33HFAhVeH1xoDeYlnV&amp;sz=w800" alt="Tried it alone, no guidance" loading="lazy"><div class="num">07</div><h3>Tried it alone, no guidance</h3><p>You gave it a shot but had no training or someone to ask.</p></div>
+<div class="card"><img class="pic wide" src="https://drive.google.com/thumbnail?id=1rUqH-d6dmLpYDpimnmCo0cK2pHS_ZYPn&amp;sz=w800" alt="Want a future back home" loading="lazy"><div class="num">08</div><h3>Want a future back home</h3><p>Working abroad pays, but you want something lasting in the Philippines.</p></div>
+</div></div></section>
+
+<section class="benefits"><div class="wrap">
+<div class="eyebrow">Why join us</div>
+<h2>You don't have to figure it out alone.</h2>
+<p>Here's what you get the moment you join us, from day one.</p>
+<div class="cards">
+<div class="card"><img class="pic" src="https://drive.google.com/thumbnail?id=1XCdYEUeWIGT8JdyvlGTpdhICq6f5J57Z&sz=w800" alt="Real estate professional learning and planning at a desk" loading="lazy"><div class="benefit-copy"><h3>Training that starts from zero</h3><p>We walk you from your very first listing to closing day, one clear step at a time. No experience needed, just the heart to learn.</p></div></div>
+<div class="card"><img class="pic" src="https://drive.google.com/thumbnail?id=1lxWXaA5jMvwVmDEszWCygwHie92OrVog&sz=w800" alt="Two real estate professionals collaborating and learning together" loading="lazy"><div class="benefit-copy"><h3>Mentors in your corner</h3><p>Learn side by side with experienced agents who answer your questions, share what really works, and cheer you on.</p></div></div>
+<div class="card"><img class="pic" src="https://drive.google.com/thumbnail?id=1Gj3m32E-HemS7WeuNho-Uakd1ZuumqLV&sz=w800" alt="A mother balancing work and family time at home" loading="lazy"><div class="benefit-copy"><h3>A schedule that fits your life</h3><p>Start part-time after work or go all in. Keep your job, your business, and your time with family.</p></div></div>
+<div class="card"><img class="pic" src="https://drive.google.com/thumbnail?id=16wtIALKrDaPFgW2Wpf0vE66WrgsaP2lV&sz=w800" alt="Realtor celebrating a family finding their new home" loading="lazy"><div class="benefit-copy"><h3>Grow as far as you want</h3><p>Your effort sets the pace. The skills, confidence, and connections you build are yours to keep for life.</p></div></div>
+</div></div></section>
+
+<section><div class="wrap"><div class="eyebrow">Behind the scenes</div><h2>Out in the field, learning something new every day.</h2><p>Site visits, team briefings, and planning sessions are part of our everyday. You'll learn by doing, alongside a team that shares what it knows and celebrates every win together.</p><div class="shots"><figure class="shot"><img src="<?= img.briefing ?>" onerror="this.closest('figure').style.display='none'" alt="Team meeting with fellow agents over dinner" loading="lazy"><figcaption><b>Meeting with fellow agents</b><span>We sit down with other agents to share strategies, trade tips, and celebrate wins. Everyone helps everyone grow.</span></figcaption></figure><figure class="shot"><img src="<?= img.sitevisit ?>" onerror="this.closest('figure').style.display='none'" alt="Team site visit at a housing development" loading="lazy"><figcaption><b>Learning right on the ground</b><span>Walk the actual property with the team and learn how to present a home with confidence.</span></figcaption></figure><figure class="shot"><img src="<?= img.meeting ?>" onerror="this.closest('figure').style.display='none'" alt="Team strategy meeting" loading="lazy"><figcaption><b>Planning around every client</b><span>We map out the best next move together, and you'll have a seat at the table.</span></figcaption></figure></div></div></section>
+
+<section class="band"><div class="wrap">
+<div class="eyebrow">Before you apply</div>
+<h2>Honest answers to common questions.</h2>
+<p>Here's what most people ask before joining.</p>
+<div class="cards faq-carousel" id="faq-carousel" aria-live="polite">
+		<div class="card faq-card"><img src="https://drive.google.com/thumbnail?id=1P3ya3ADdOSiqJCTfbTzegx8pBskiX4D0&sz=w1200" alt="Friendly real estate mentoring session" loading="lazy"><div class="num">01</div><h3>Do I need experience?</h3><p>No. We'll teach you the basics and walk with you from the start.</p></div>
+	<div class="card faq-card"><img src="https://drive.google.com/thumbnail?id=1Z4xU_iKFXqlNh8sDzIU22ZIiAgERs81N&sz=w1200" alt="Flexible workday at home" loading="lazy"><div class="num">02</div><h3>Can I do this part-time?</h3><p>Yes. Many people start while keeping their job or business.</p></div>
+		<div class="card faq-card"><img src="https://drive.google.com/thumbnail?id=15sqrCPamzh3-xQ1FB_ZQPpeaGSW5E_Q1&sz=w1200" alt="Checklist of requirements discussed during a real estate consultation" loading="lazy"><div class="num">03</div><h3>What are the requirements?</h3><p>We'll explain the requirements and the process during our call.</p></div>
+		<div class="card faq-card"><img src="https://drive.google.com/thumbnail?id=1GwMqVBAxH0JmtAI7SjF01muGRVNT9vqr&sz=w1200" alt="Collaborative team mentoring and support session" loading="lazy"><div class="num">04</div><h3>What support will I get?</h3><p>Training, mentorship, and a team you can ask anytime.</p></div>
+		<button class="faq-nav" id="faq-prev" type="button" aria-label="Previous question">&lsaquo;</button><button class="faq-nav" id="faq-next" type="button" aria-label="Next question">&rsaquo;</button>
+	</div>
+	<div class="faq-controls" aria-label="FAQ carousel indicators"><div class="faq-dots" id="faq-dots"></div></div>
+	</div></section>
+
+<section id="how"><div class="wrap">
+<div class="eyebrow">Simple process</div>
+<h2>How joining works</h2>
+<div class="cards">
+	<div class="card"><img class="pic" src="https://drive.google.com/thumbnail?id=1vH6Ucewv1E5AiIi-mrzuYZ1HhPUG7psK&sz=w1200" alt="Professional filling out a short application form" loading="lazy"><div class="num">1</div><h3>Tell us about you</h3><p>Fill in the short form. Takes about two minutes.</p></div>
+	<div class="card"><img class="pic" src="https://drive.google.com/thumbnail?id=1QDcZ4HQLEZyx8mCrTiuVbj-YeibBsvKQ&sz=w1200" alt="Real-estate mentor having a short chat with new team members" loading="lazy"><div class="num">2</div><h3>Let's have a short chat</h3><p>I'll contact you to talk about the team, training, and terms.</p></div>
+	<div class="card"><img class="pic" src="https://drive.google.com/thumbnail?id=1l3qRQqQRfVxLvxt54Mj-YqECUu2NUlIp&sz=w1200" alt="Professional reviewing a career plan with a supportive mentor" loading="lazy"><div class="num">3</div><h3>Decide with confidence</h3><p>Ask your questions, then decide if it's a fit. No pressure.</p></div>
+</div></div></section>
+
+<section id="consult"><div class="wrap center" style="max-width:640px">
+<div class="eyebrow">Join our team</div>
+<h2>Ready to start your real estate journey?</h2>
+<p>Answer a few quick questions and we'll reach out to schedule a short chat. No cost, no pressure.</p>
+<p><button class="btn" data-open type="button">Apply now</button></p>
+</div></section>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mt"><div class="dialog">
+<button class="x" type="button" id="close" aria-label="Close">&times;</button>
+<div id="wiz">
+<div class="stepno" id="sn">Step 1 of 5</div>
+<h3 id="mt">What do you do right now?</h3>
+<div class="bar"><i id="pb"></i></div>
+<form id="f" novalidate>
+<div class="step on" data-t="What do you do right now?" data-auto="1"><div class="opts"><label class="opt"><input type="radio" name="occupation" value="Employed" required><span>Employed</span></label><label class="opt"><input type="radio" name="occupation" value="Business owner" required><span>Business owner</span></label><label class="opt"><input type="radio" name="occupation" value="OFW / Seafarer" required><span>OFW / Seafarer</span></label><label class="opt"><input type="radio" name="occupation" value="Fresh graduate" required><span>Fresh graduate</span></label><label class="opt"><input type="radio" name="occupation" value="Full-time parent / homemaker" required><span>Full-time parent / homemaker</span></label><label class="opt"><input type="radio" name="occupation" value="Other" required><span>Other</span></label></div></div>
+<div class="step" data-t="Any real estate experience?" data-auto="1"><div class="opts"><label class="opt"><input type="radio" name="experience" value="No experience yet" required><span>No experience yet</span></label><label class="opt"><input type="radio" name="experience" value="Less than 1 year" required><span>Less than 1 year</span></label><label class="opt"><input type="radio" name="experience" value="1 to 3 years" required><span>1 to 3 years</span></label><label class="opt"><input type="radio" name="experience" value="More than 3 years" required><span>More than 3 years</span></label></div></div>
+<div class="step" data-t="How much time can you commit?" data-auto="1"><div class="opts"><label class="opt"><input type="radio" name="availability" value="Part-time" required><span>Part-time</span></label><label class="opt"><input type="radio" name="availability" value="Full-time" required><span>Full-time</span></label><label class="opt"><input type="radio" name="availability" value="Not sure yet" required><span>Not sure yet</span></label></div></div>
+<div class="step" data-t="Tell us a little more">
+<label>Why do you want to join? (optional)<textarea name="why" rows="3" placeholder="Tell us a little about your goals"></textarea></label>
+<div class="fld"><span id="dlbl">Preferred date for a short call (optional)</span>
+<input type="hidden" name="date" id="dt">
+<button type="button" class="dbtn ph" id="dbtn" aria-haspopup="true" aria-expanded="false" aria-labelledby="dlbl dtxt"><span id="dtxt">Select a date</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="3"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></button>
+<div class="cal" id="cal" role="group" aria-label="Choose a date">
+<div class="chd"><button type="button" class="cnav" id="cprev" aria-label="Previous month">&lsaquo;</button><b id="ctitle"></b><button type="button" class="cnav" id="cnext" aria-label="Next month">&rsaquo;</button></div>
+<div class="cgrid" id="cgrid"></div>
+<div class="cft"><button type="button" class="clink" id="cclear">Clear</button><button type="button" class="clink" id="ctoday">Today</button></div>
+</div></div>
+</div>
+<div class="step" data-t="Where can we reach you?">
+<label>Full name<input name="name" required autocomplete="name"></label>
+<label>Email<input name="email" type="email" required autocomplete="email"></label>
+<label>Mobile number<input name="phone" type="tel" required autocomplete="tel"></label>
+<div class="fld"><span>Where are you based?</span><div class="opts"><label class="opt"><input type="radio" name="location" value="Bulacan" required><span>Bulacan</span></label><label class="opt"><input type="radio" name="location" value="Cavite" required><span>Cavite</span></label><label class="opt"><input type="radio" name="location" value="Other province in the Philippines" required><span>Other province in the Philippines</span></label><label class="opt"><input type="radio" name="location" value="Overseas (OFW)" required><span>Overseas (OFW)</span></label></div></div>
+<label class="check"><input type="checkbox" name="consent" required> I agree to be contacted about joining the team.</label>
+</div>
+<div class="nav2"><button class="btn alt" type="button" id="back" style="display:none">Back</button><button class="btn" type="button" id="next">Continue</button></div>
+</form>
+</div>
+<div id="done" class="center" style="display:none"><h3>Thank you!</h3><p id="dmsg">We got your application and will contact you within 24 hours.</p><button class="btn" type="button" id="close2">Close</button></div>
+</div></div>
+
+<footer><div class="wrap">
+<img class="flogo" src="<?= img.logo ?>" alt=""><p><b style="color:var(--ink)">Sheila Mae Fajutagana</b><br>Financially Savvy Realtor</p>
+<a href="https://www.facebook.com/profile.php?id=61577472729033">Facebook</a><a href="https://www.youtube.com/@SheilaMaeFajutagana">YouTube</a><a href="mailto:sheilamaefajutagana09@gmail.com">Email</a>
+<p style="margin-top:16px">Smart Moves • Secure Futures</p>
+</div></footer>
+
+<script>
+var m=document.getElementById('modal'),f=document.getElementById('f'),steps=f.querySelectorAll('.step'),cur=0;
+var sn=document.getElementById('sn'),mt=document.getElementById('mt'),pb=document.getElementById('pb'),nx=document.getElementById('next'),bk=document.getElementById('back');
+function show(n){
+  cur=n;
+  steps.forEach(function(s,i){s.classList.toggle('on',i===n)});
+  sn.textContent='Step '+(n+1)+' of '+steps.length;
+  mt.textContent=steps[n].getAttribute('data-t');
+  pb.style.width=((n+1)/steps.length*100)+'%';
+  bk.style.display=n?'block':'none';
+  nx.textContent=n===steps.length-1?'Submit application':'Continue';
+  nx.style.display=steps[n].hasAttribute('data-auto')?'none':'block';
+}
+function valid(){
+  var ok=true;
+  steps[cur].querySelectorAll('input,select,textarea').forEach(function(el){if(ok&&!el.checkValidity()){el.reportValidity();ok=false}});
+  return ok;
+}
+function openM(e){if(e)e.preventDefault();document.getElementById('wiz').style.display='block';document.getElementById('done').style.display='none';m.classList.add('open');document.body.style.overflow='hidden'}
+function closeM(){m.classList.remove('open');document.body.style.overflow='';if(window.closeCal)closeCal()}
+document.querySelectorAll('[data-open]').forEach(function(b){b.addEventListener('click',openM)});
+document.getElementById('close').onclick=closeM;document.getElementById('close2').onclick=closeM;
+m.addEventListener('click',function(e){if(e.target===m)closeM()});
+bk.onclick=function(){show(cur-1)};
+// Tap an answer and move to the next question automatically
+f.querySelectorAll('.step[data-auto] input[type=radio]').forEach(function(r){
+  r.addEventListener('click',function(){setTimeout(function(){if(cur<steps.length-1)show(cur+1)},220)});
+});
+show(0);
+nx.onclick=function(){
+  if(!valid())return;
+  if(cur<steps.length-1){show(cur+1);return}
+  submit();
+};
+function finish(msg){
+  document.getElementById('wiz').style.display='none';
+  document.getElementById('done').style.display='block';
+  if(msg)document.getElementById('dmsg').textContent=msg;
+}
+function submit(){
+  var o={};new FormData(f).forEach(function(v,k){o[k]=v});
+  nx.disabled=true;nx.textContent='Sending...';
+  google.script.run
+    .withSuccessHandler(function(){nx.disabled=false;f.reset();if(window.clearDate)clearDate();show(0);finish()})
+    .withFailureHandler(function(){nx.disabled=false;nx.textContent='Submit application';alert('Something went wrong. Please try again or email me directly.')})
+    .submitForm(o);
+}
+// Apps Script runs pages in a frame: handle in-page links and open external links in a new tab
+document.querySelectorAll('a[href^="#"]').forEach(function(l){
+  l.addEventListener('click',function(e){
+    e.preventDefault();
+    if(l.hasAttribute('data-open'))return;
+    var t=document.querySelector(l.getAttribute('href'));if(t)t.scrollIntoView({behavior:'smooth'});
+  });
+});
+document.querySelectorAll('a[href^="http"],a[href^="mailto"]').forEach(function(l){l.target='_blank';l.rel='noopener'});
+
+// Reveal sections and cards as they enter the viewport
+(function(){
+  var groups=[
+    'section:not(.hero) .eyebrow',
+    'section:not(.hero) h2',
+    'section:not(.hero) > .wrap > p',
+    '.pain-points .card',
+    '.benefits .card',
+    '.shots .shot',
+    '.band .faq-card',
+    '#how .card',
+    '#consult .wrap'
+  ];
+  var items=[];
+  groups.forEach(function(selector){
+    Array.prototype.forEach.call(document.querySelectorAll(selector),function(el){
+      if(items.indexOf(el)===-1)items.push(el);
+    });
+  });
+  items.forEach(function(el,i){
+    el.classList.add('scroll-reveal');
+    el.style.setProperty('--reveal-delay',((i%4)*.08)+'s');
+    if(el.closest('.benefits')&&i%2)el.classList.add('reveal-right');
+  });
+  if(!('IntersectionObserver' in window)){items.forEach(function(el){el.classList.add('is-visible')});return}
+  var observer=new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}
+    });
+  },{threshold:.14,rootMargin:'0px 0px -8% 0px'});
+  items.forEach(function(el){observer.observe(el)});
+})();
+
+// FAQ carousel: auto-advance, arrows, dots, hover pause, and keyboard-friendly focus
+(function(){
+  var track=document.getElementById('faq-carousel'),dots=document.getElementById('faq-dots'),prev=document.getElementById('faq-prev'),next=document.getElementById('faq-next');
+  if(!track||!dots||!prev||!next)return;
+  var cards=Array.prototype.slice.call(track.querySelectorAll('.faq-card')),index=0,timer,reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function positionButtons(){
+    var img=cards[index]&&cards[index].querySelector('img');
+    if(!img)return;
+    var tr=track.getBoundingClientRect(),ir=img.getBoundingClientRect(),top=(ir.top-tr.top)+(ir.height/2)-20;
+    prev.style.top=top+'px';next.style.top=top+'px';
+  }
+  cards.forEach(function(card,i){
+    var dot=document.createElement('button');dot.type='button';dot.className='faq-dot';dot.setAttribute('aria-label','Show question '+(i+1));dot.addEventListener('click',function(){show(i);restart()});dots.appendChild(dot);
+    var img=card.querySelector('img');if(img)img.addEventListener('load',positionButtons);
+  });
+  function show(n){
+    index=(n+cards.length)%cards.length;
+    cards.forEach(function(card,i){card.style.transform='translateX(-'+(index*100)+'%)';card.setAttribute('aria-hidden',i===index?'false':'true')});
+    Array.prototype.forEach.call(dots.children,function(dot,i){dot.setAttribute('aria-current',i===index?'true':'false')});
+    requestAnimationFrame(positionButtons);
+  }
+  function restart(){if(reduce)return;clearInterval(timer);timer=setInterval(function(){show(index+1)},2500)}
+  prev.addEventListener('click',function(){show(index-1);restart()});
+  next.addEventListener('click',function(){show(index+1);restart()});
+  track.addEventListener('mouseenter',function(){clearInterval(timer)});track.addEventListener('mouseleave',restart);
+  track.addEventListener('focusin',function(){clearInterval(timer)});track.addEventListener('focusout',restart);
+  window.addEventListener('resize',positionButtons);
+  show(0);restart();
+})();
+
+(function(){
+  var r=document.documentElement,b=document.getElementById('tg');
+  var mq=window.matchMedia?window.matchMedia('(prefers-color-scheme: dark)'):null;
+  function cur(){return r.getAttribute('data-theme')||(mq&&mq.matches?'dark':'light')}
+  function icon(){b.textContent=cur()==='dark'?'\u2600\uFE0F':'\uD83C\uDF19'}
+  try{var s=localStorage.getItem('theme');if(s)r.setAttribute('data-theme',s)}catch(e){}
+  icon();
+  b.addEventListener('click',function(){
+    var n=cur()==='dark'?'light':'dark';
+    r.setAttribute('data-theme',n);
+    try{localStorage.setItem('theme',n)}catch(e){}
+    icon();
+  });
+})();
+
+// Custom calendar for the preferred call date (past dates are disabled)
+(function(){
+  var btn=document.getElementById('dbtn'),cal=document.getElementById('cal'),hid=document.getElementById('dt'),grid=document.getElementById('cgrid'),ttl=document.getElementById('ctitle'),txt=document.getElementById('dtxt'),prev=document.getElementById('cprev'),next=document.getElementById('cnext');
+  var M=['January','February','March','April','May','June','July','August','September','October','November','December'];
+  var today=new Date();today.setHours(0,0,0,0);
+  var view=new Date(today.getFullYear(),today.getMonth(),1),sel='';
+  function iso(y,m,d){return y+'-'+('0'+(m+1)).slice(-2)+'-'+('0'+d).slice(-2)}
+  var todayIso=iso(today.getFullYear(),today.getMonth(),today.getDate());
+  function render(){
+    var y=view.getFullYear(),m=view.getMonth(),first=new Date(y,m,1).getDay(),days=new Date(y,m+1,0).getDate(),h='';
+    ttl.textContent=M[m]+' '+y;
+    ['Su','Mo','Tu','We','Th','Fr','Sa'].forEach(function(w){h+='<div class="cw">'+w+'</div>'});
+    for(var i=0;i<first;i++)h+='<span></span>';
+    for(var d=1;d<=days;d++){
+      var s=iso(y,m,d),past=new Date(y,m,d)<today;
+      h+='<button type="button" class="cd'+(s===todayIso?' td':'')+(s===sel?' sel':'')+'" data-d="'+s+'"'+(past?' disabled':'')+'>'+d+'</button>';
+    }
+    grid.innerHTML=h;
+    prev.disabled=(y===today.getFullYear()&&m===today.getMonth());
+  }
+  function setDate(s){
+    sel=s;hid.value=s;
+    if(s){var p=s.split('-');txt.textContent=M[+p[1]-1].slice(0,3)+' '+(+p[2])+', '+p[0];btn.classList.remove('ph')}
+    else{txt.textContent='Select a date';btn.classList.add('ph')}
+  }
+  function open(){
+    if(sel){var p=sel.split('-');view=new Date(+p[0],+p[1]-1,1)}
+    render();cal.classList.add('open');btn.setAttribute('aria-expanded','true');
+    try{cal.scrollIntoView({block:'nearest',behavior:'smooth'})}catch(e){}
+  }
+  function close(){cal.classList.remove('open');btn.setAttribute('aria-expanded','false')}
+  btn.addEventListener('click',function(){cal.classList.contains('open')?close():open()});
+  prev.addEventListener('click',function(){view=new Date(view.getFullYear(),view.getMonth()-1,1);render()});
+  next.addEventListener('click',function(){view=new Date(view.getFullYear(),view.getMonth()+1,1);render()});
+  grid.addEventListener('click',function(e){
+    var b=e.target.closest?e.target.closest('.cd'):null;
+    if(!b||b.disabled)return;
+    setDate(b.getAttribute('data-d'));close();btn.focus();
+  });
+  document.getElementById('cclear').addEventListener('click',function(){setDate('');close()});
+  document.getElementById('ctoday').addEventListener('click',function(){setDate(todayIso);close()});
+  cal.addEventListener('keydown',function(e){if(e.key==='Escape'){e.stopPropagation();close();btn.focus()}});
+  window.clearDate=function(){setDate('');close()};
+  window.closeCal=close;
+})();
+
+// Loading entrance: show the intro for a moment, then reveal the page
+(function(){
+  var L=document.getElementById('loader'),start=Date.now(),MIN=1900,hid=false;
+  function hide(){
+    if(hid)return;hid=true;
+    L.classList.add('done');
+    document.documentElement.classList.add('ready');
+    setTimeout(function(){L.style.display='none'},800);
+  }
+  function go(){setTimeout(hide,Math.max(0,MIN-(Date.now()-start)))}
+  if(document.readyState==='complete')go();else window.addEventListener('load',go);
+  setTimeout(hide,5000); // safety: never keep the loader longer than this
+})();
+</script>
+</body>
+</html>
